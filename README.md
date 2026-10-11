@@ -1,12 +1,14 @@
 <p align="center"><img src="assets/denge.png" width="88" alt="Denge logosu"></p>
 
-# Denge
+# Denge — E-ticaret Kâr Hesaplayıcı
 
-**Senin satış düzenin.** Türkiye'deki bireysel satıcılar ve işletmeler için ücretsiz, Türkçe e-ticaret kâr hesaplayıcı.
+**Satmadan önce kârını gör.** Komisyon, kargo ve KDV sonrası kazancını hesapla; satışlarını takip et, Excel ve PDF raporları oluştur.
 
-[**Windows 11 x64 için indir — 0.2.0 Beta 1**](https://github.com/crelynstudio/crelyn-studio-denge-indir/releases/tag/v0.2.0-beta.1)
+[**Windows 11 x64 için indir — ücretsiz, 0.2.0 Beta 1**](https://github.com/crelynstudio/denge-eticaret-kar-hesaplayici/releases/download/v0.2.0-beta.1/Denge-0.2.0-beta.1-Windows11-x64.zip) · [Sürüm notları ve SHA-256](https://github.com/crelynstudio/denge-eticaret-kar-hesaplayici/releases/tag/v0.2.0-beta.1)
 
-Bu depo uygulamanın indirme ve kullanım alanıdır. **Denge kapalı kaynaktır**; uygulamanın kaynak kodu bu depoda bulunmaz. Bireysel ve işletme kullanımı ücretsizdir; hesap, abonelik veya API anahtarı gerekmez.
+**Senin satış düzenin.** Türkiye'deki bireysel satıcılar ve işletmeler için tamamen Türkçe, çevrimdışı masaüstü uygulaması. Hesap ve abonelik gerekmez.
+
+![Denge hesaplayıcısında ürün maliyetleri ve birim kâr özeti; örnek veriler](screenshots/hesaplayici.png)
 
 ## Neler yapabilirsiniz?
 
@@ -21,15 +23,13 @@ Bu depo uygulamanın indirme ve kullanım alanıdır. **Denge kapalı kaynaktır
 
 Güncel 0.2.0 arayüzünün Windows 11'de çalışan tarayıcı önizlemesinden alınmıştır. Görünen ürünler ve satışlar örnek veridir.
 
-![Ürün maliyetleri ve birim kâr özeti](screenshots/hesaplayici.png)
-
 ![Kanal ve tarih filtreleriyle satış raporu](screenshots/raporlar.png)
 
 ![Aynı ürünün kayıtlı kanal giderleriyle karşılaştırılması](screenshots/kanal-karsilastirma.png)
 
 ## İndirme ve açılış
 
-1. [Releases](https://github.com/crelynstudio/crelyn-studio-denge-indir/releases) sayfasını açın.
+1. [Releases](https://github.com/crelynstudio/denge-eticaret-kar-hesaplayici/releases) sayfasını açın.
 2. **Assets** bölümünden `Denge-0.2.0-beta.1-Windows11-x64.zip` dosyasını indirin. GitHub'ın otomatik **Source code (zip)** dosyası uygulama paketi değildir; yalnız bu deponun belgelerini içerir.
 3. ZIP'e sağ tıklayıp **Tümünü ayıkla** seçin. ZIP içinden doğrudan çalıştırmayın.
 4. Açılan `Denge` klasöründeki **denge.exe** dosyasını çalıştırın. Yanındaki DLL ve lisans klasörlerini ayırmayın.
@@ -56,7 +56,7 @@ Başlangıç kanal oranları **sıfırdır**; kendi sözleşmenizdeki değerleri
 
 ## Lisans ve geliştirici
 
-© 2026 Crelyn Studio. Denge kapalı kaynak olup bireysel ve işletme kullanımı ücretsizdir. [Kullanım bildirimi](LICENSE) kaynak kodu ve yeniden dağıtım haklarını açıklar. Üçüncü taraf bileşenlerin kendi hakları korunur; tam lisans bildirimleri ve ilgili MPL bileşenlerinin değişmemiş kaynakları uygulama ZIP'ine dahildir. Bunlar Denge'nin kaynak kodu değildir.
+© 2026 Crelyn Studio. **Denge kapalı kaynaktır**; bu depo yalnız uygulamanın indirme ve kullanım alanıdır. Bireysel ve işletme kullanımı ücretsizdir. [Kullanım bildirimi](LICENSE) kaynak kodu ve yeniden dağıtım haklarını açıklar. Üçüncü taraf bileşenlerin kendi hakları korunur; tam lisans bildirimleri ve ilgili MPL bileşenlerinin değişmemiş kaynakları uygulama ZIP'ine dahildir. Bunlar Denge'nin kaynak kodu değildir.
 
 Denge ve Crelyn Studio adları/logoları marka varlıklarıdır; üçüncü taraf lisansları bu markalar için kullanım hakkı vermez.
 
