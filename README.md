@@ -4,11 +4,15 @@
 
 **Satmadan önce kârını gör.** Komisyon, kargo ve KDV sonrası kazancını hesapla; satışlarını takip et, Excel ve PDF raporları oluştur.
 
-[**Windows 11 x64 için indir — ücretsiz, 0.2.0 Beta 1**](https://github.com/crelynstudio/denge-eticaret-kar-hesaplayici/releases/download/v0.2.0-beta.1/Denge-0.2.0-beta.1-Windows11-x64.zip) · [Sürüm notları ve SHA-256](https://github.com/crelynstudio/denge-eticaret-kar-hesaplayici/releases/tag/v0.2.0-beta.1)
+[**Windows 11 x64 için indir — ücretsiz, 0.3.0 Beta 1**](https://github.com/crelynstudio/denge-eticaret-kar-hesaplayici/releases/download/v0.3.0-beta.1/Denge-0.3.0-beta.1-Windows11-x64.zip) · [Sürüm notları ve SHA-256](https://github.com/crelynstudio/denge-eticaret-kar-hesaplayici/releases/tag/v0.3.0-beta.1)
 
 **Senin satış düzenin.** Türkiye'deki bireysel satıcılar ve işletmeler için tamamen Türkçe, çevrimdışı masaüstü uygulaması. Hesap ve abonelik gerekmez.
 
 ![Denge hesaplayıcısında ürün maliyetleri ve birim kâr özeti; örnek veriler](screenshots/hesaplayici.png)
+
+## 0.3.0 Beta 1 ile gelenler
+
+Yeni Denge logosu, kömür siyahı koyu tema, krem metinler ve amber vurgular. Windows simgesi ve rapor kimliği yenilendi. Hesaplama kuralları ve kayıt biçimi korunmuştur.
 
 ## Neler yapabilirsiniz?
 
@@ -21,7 +25,7 @@
 
 ## Ekran görüntüleri
 
-Güncel 0.2.0 arayüzünün Windows 11'de çalışan tarayıcı önizlemesinden alınmıştır. Görünen ürünler ve satışlar örnek veridir.
+Güncel 0.3.0 koyu arayüzünün Windows 11'de çalışan tarayıcı önizlemesinden alınmıştır. Görünen ürünler ve satışlar örnek veridir.
 
 ![Kanal ve tarih filtreleriyle satış raporu](screenshots/raporlar.png)
 
@@ -30,7 +34,7 @@ Güncel 0.2.0 arayüzünün Windows 11'de çalışan tarayıcı önizlemesinden 
 ## İndirme ve açılış
 
 1. [Releases](https://github.com/crelynstudio/denge-eticaret-kar-hesaplayici/releases) sayfasını açın.
-2. **Assets** bölümünden `Denge-0.2.0-beta.1-Windows11-x64.zip` dosyasını indirin. GitHub'ın otomatik **Source code (zip)** dosyası uygulama paketi değildir; yalnız bu deponun belgelerini içerir.
+2. **Assets** bölümünden `Denge-0.3.0-beta.1-Windows11-x64.zip` dosyasını indirin. GitHub'ın otomatik **Source code (zip)** dosyası uygulama paketi değildir; yalnız bu deponun belgelerini içerir.
 3. ZIP'e sağ tıklayıp **Tümünü ayıkla** seçin. ZIP içinden doğrudan çalıştırmayın.
 4. Açılan `Denge` klasöründeki **denge.exe** dosyasını çalıştırın. Yanındaki DLL ve lisans klasörlerini ayırmayın.
 
@@ -38,7 +42,7 @@ Güncel 0.2.0 arayüzünün Windows 11'de çalışan tarayıcı önizlemesinden 
 
 Microsoft **WebView2 Runtime** gerekir; Runtime ZIP'e dahil değildir. Eksikse [Microsoft'un resmî indirme sayfasından](https://developer.microsoft.com/microsoft-edge/webview2/#download-section) **Evergreen Standalone Installer — x64** kurun. İlk indirme/Runtime kurulumu internet gerektirebilir; ardından hesaplama ve yerel kayıtlar internetsiz çalışır.
 
-Paket dijital imzalı değildir; Windows bilinmeyen yayıncı bildirimi gösterebilir. İndirme kaynağını ve **SHA256SUMS.txt** değerini doğrulayın. PowerShell'de `Get-FileHash -Algorithm SHA256 .\Denge-0.2.0-beta.1-Windows11-x64.zip` komutunun çıktısını bu dosyadaki değerle karşılaştırabilirsiniz.
+Paket dijital imzalı değildir; Windows bilinmeyen yayıncı bildirimi gösterebilir. İndirme kaynağını ve **Denge-0.3.0-beta.1-SHA256SUMS.txt** değerini doğrulayın. PowerShell'de `Get-FileHash -Algorithm SHA256 .\Denge-0.3.0-beta.1-Windows11-x64.zip` komutunun çıktısını bu dosyadaki değerle karşılaştırabilirsiniz.
 
 [Ayrıntılı kullanım rehberi](KULLANIM.md)
 

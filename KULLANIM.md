@@ -1,10 +1,10 @@
-# Denge 0.2.0 Beta 1
+# Denge 0.3.0 Beta 1
 
 Türkiye için ücretsiz e-ticaret kâr hesaplayıcı. Tamamen Türkçe, tek işletme ve Türk lirası için geliştirilmiştir. Kaynak kod kapalıdır.
 
 ## Açılış
 
-1. `Denge-0.2.0-beta.1-Windows11-x64.zip` dosyasına sağ tıklayıp **Tümünü ayıkla** seçin.
+1. `Denge-0.3.0-beta.1-Windows11-x64.zip` dosyasına sağ tıklayıp **Tümünü ayıkla** seçin.
 2. Açılan `Denge` klasöründeki **denge.exe** dosyasını çalıştırın. ZIP'in içinden doğrudan çalıştırmayın.
 3. `WebView2Loader.dll`, lisans bildirimleri ve `third-party-sources` / `runtime-notices` klasörlerini uygulamanın yanında tutun. Başka bilgisayara taşırken klasörün tamamını kopyalayın.
 
@@ -13,6 +13,10 @@ Yalnız **Windows 11, 64 bit x64** desteklenir. Windows 11'de paket açılışı
 Microsoft **WebView2 Runtime** gerekir; Runtime bu küçük pakete dahil değildir. Bilgisayarda yoksa Microsoft'un [resmî indirme sayfasından](https://developer.microsoft.com/microsoft-edge/webview2/#download-section) **Evergreen Standalone Installer — x64** paketini indirip kurun. Edge tarayıcısının bulunması tek başına yeterli değildir. Denge'yi yeniden açın. İlk indirme/Runtime kurulumu internet gerektirebilir; Runtime kurulduktan sonra hesaplama ve yerel kayıtlar internetsiz çalışır. Node.js, Rust veya geliştirme araçları gerekmez.
 
 Bu deneme paketi dijital olarak imzalanmamıştır. Windows yayıncıyı tanımadığını bildirebilir; indirdiğiniz kaynağı ve SHA-256 değerini doğrulayın. Güvenlik yazılımını kapatmayın.
+
+## Yeni görünüm
+
+Uygulama koyu tema kullanır: kömür siyahı paneller, krem metinler ve amber vurgular. PDF/Excel çıktıları baskıya uygun açık görünümünü korur. Hesaplama kuralları ve kayıt biçimi değişmemiştir.
 
 ## İlk hesap
 
